@@ -8,14 +8,15 @@
             --rose-gold: #e0bfb8;
             --texture-color: #fff9fb;
             --envelope-color: #f8e0e8;
-            --maps-blue: #4285F4;
-            --maps-green: #34A853;
+            --maps-blue: #eb0fe0;
+            --maps-green: #d548f1;
         }
         
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: var(--texture-color);
             background-image: url('../image/fundo.avif');
+            background-size: cover;
             color: var(--dark-color);
             margin: 0;
             padding: 0;
@@ -127,7 +128,7 @@
         }
         
         .invite-card {
-            background: white;
+            background: rgb(241, 215, 231);
             border-radius: 20px;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
             overflow: hidden;
@@ -237,15 +238,15 @@
             height: 300px;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+            border: 1px solid rgba(150, 10, 150, 0);
             position: relative;
         }
         
         .map-placeholder {
             width: 100%;
             height: 100%;
-            background: #f0f0f0;
+            background: #dc03f818;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -278,7 +279,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+            background: url('../image/bg.avif');
             opacity: 0.3;
             pointer-events: none;
         }
@@ -316,32 +317,32 @@
             cursor: pointer;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(232, 62, 140, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 38, 139, 0.733);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
         .btn:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(232, 62, 140, 0.4);
+            box-shadow: 0 10px 25px rgba(235, 6, 113, 0.4);
         }
         
         .btn-whatsapp {
-            background: linear-gradient(135deg, #25D366, #128C7E);
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+            background: linear-gradient(135deg, #d63369, #d41f8f);
+            box-shadow: 0 5px 15px rgba(250, 17, 238, 0.418);
         }
         
         .btn-whatsapp:hover {
-            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 10px 25px rgba(238, 6, 207, 0.76);
         }
         
         .btn-maps {
             background: linear-gradient(135deg, var(--maps-blue), var(--maps-green));
-            box-shadow: 0 5px 15px rgba(66, 133, 244, 0.3);
+            box-shadow: 0 5px 15px rgba(203, 6, 252, 0.3);
         }
         
         .btn-maps:hover {
-            background: linear-gradient(135deg, #3367D6, #2D9144);
-            box-shadow: 0 10px 25px rgba(66, 133, 244, 0.4);
+            background: linear-gradient(135deg, #d63369, #d41f8f);
+            box-shadow: 0 10px 25px rgba(235, 35, 35, 0.4);
         }
         
         .qrcode-container {
