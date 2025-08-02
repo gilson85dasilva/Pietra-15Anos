@@ -15,6 +15,17 @@
                 }
             });
             
+            // Gerar QR Code responsivo
+            const qrSize = window.innerWidth < 768 ? 150 : 200;
+            QRCode.toCanvas(document.getElementById('qrcode'), qrText, {
+                width: qrSize,
+                margin: 2,
+                color: {
+                    dark: '#3a2e3a',
+                    light: '#ffffff'
+                }
+            });
+
             // Abrir convite ao clicar no selo
             stamp.addEventListener('click', function(e) {
                 e.stopPropagation();

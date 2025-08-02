@@ -469,4 +469,97 @@
                 height: 250px;
             }
         }
+        /* Adicione estas regras ao final do arquivo */
+
+/* Estilos para botões responsivos */
+.btn-icon-text span {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .btn-icon-text {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 0;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-icon-text span {
+        display: none;
+    }
+    
+    .btn-icon-text i {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    /* Melhorias de responsividade */
+    .envelope-front h1 {
+        font-size: 3.5rem;
+    }
+    
+    .invite-header h1 {
+        font-size: 2.8rem;
+    }
+    
+    .invite-title {
+        font-size: 2rem;
+    }
+    
+    .detail-value {
+        font-size: 1.2rem;
+    }
+    
+    .map-container {
+        height: 200px;
+    }
+    
+    .invite-body {
+        padding: 1.5rem;
+    }
+    
+    .confirmation-section {
+        padding: 1.5rem;
+    }
+    
+    .qrcode-container {
+        padding: 1rem;
+    }
+    
+    .back-btn {
+        top: 15px;
+        left: 15px;
+    }
+    
+    .floating-decoration {
+        font-size: 4rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .envelope-front h1 {
+        font-size: 2.8rem;
+    }
+    
+    .invite-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .detail-value {
+        font-size: 1.1rem;
+    }
+    
+    .map-container {
+        height: 180px;
+    }
+    
+    .btn-icon-text {
+        width: 45px;
+        height: 45px;
+    }
+}
     
