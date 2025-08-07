@@ -5,7 +5,7 @@
             const backBtn = document.getElementById('backBtn');
             
             // Gerar QR Code
-            const qrText = "https://wa.me/5511999999999?text=Olá%20Pietra,%20confirmo%20minha%20presença%20no%20seu%20aniversário%20de%2015%20anos!";
+            const qrText = "https://wa.me/55553599781660?text=Olá%20Pietra,%20confirmo%20minha%20presença%20no%20seu%20aniversário%20de%2015%20anos!";
             QRCode.toCanvas(document.getElementById('qrcode'), qrText, {
                 width: 200,
                 margin: 2,
