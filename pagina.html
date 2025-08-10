@@ -3,73 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convite de 15 Anos - Pietra</title>
-    <link rel="stylesheet" href="./assets/css/pagina.css">
+    <title>Pietra 15 Anos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-   
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/image/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        /* Correção temporária para imagem de fundo */
+        .invite-body {
+            background-position: center top;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
-    <div class="glitter-overlay"></div>
-    <div class="confetti" id="confetti"></div>
-    
-    <button class="back-btn" id="backBtn">
-        <i class="fas fa-arrow-left"></i>
-    </button>
-    
-    <div class="container">
-        <header>
-        </header>
-        
-        <section class="envelope-section" id="envelopeSection">
-            <div class="envelope-container" id="envelopeContainer">
-                <div class="envelope" id="envelope">
-                    <div class="flap"></div>
-                    <div class="paper"></div>
-                    <div class="heart-button" id="heartButton">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
+    <!-- Página do Envelope -->
+    <div class="envelope-page" id="envelopePage">
+        <div class="envelope-outer">
+            <div class="envelope-front">
+                <h1>Pietra</h1>
+                <br>
+                <p>15 Anos</p>
             </div>
-        </section>
-
-        <!-- Convite Elegante -->
-        <section class="invitation-section" id="invitationSection">
-            <div class="invitation">
-                <div class="invitation-header fade-in">
+            
+            <div class="stamp" id="stamp">
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Página do Convite -->
+    <div class="invite-page" id="invitePage">
+        <button class="back-btn" id="backBtn">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        
+        <div class="container">
+            <div class="invite-card">
+                <div class="invite-header">
+                    <i class="fas fa-crown floating-decoration decoration-1"></i>
+                    <i class="fas fa-heart floating-decoration decoration-2"></i>
+                    <i class="fas fa-star floating-decoration decoration-3"></i>
+                    <i class="fas fa-gem floating-decoration decoration-4"></i>
                     <h1>Pietra Donderi Oliveira</h1>
-                    <h2>15 Anos</h2>
+                    <br>
+                    <p>15 Anos</p>
                 </div>
                 
-                <div class="subtitle fade-in">Convido você a comemorar comigo esta vitória</div>
-                
-                <div class="invitation-content fade-in">
-                    <div class="message-box">
-                        <div class="info-label">MENSAGEM</div>
-                        <div class="info-value">
-                            Ao deixar minha infância para trás, percebo o quanto se fez belo o meu caminho, como é bom sentir medo e ter com quem se encorajar, tendo, a cada momento, mais razões para agradecer a Deus a vitória de ter chegado aqui.
+                <div class="invite-body">
+                    <h2 class="invite-title">Convido você a comemorar comigo uma desta vitórias</h2>
+                    <div class="invite-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Pietra</span>
+                            <div class="detail-value">
+                                <p>Ao longo andar do tempo, vejo que minha infância, cada vez mais rápida, passa, 
+                                    e finalmente chega a um fim. Cheia de memórias e carinho, assim continuo crescendo, 
+                                    talvez imperfeita, mas do meu jeito. Em alguns momentos, sabia que o medo me consumiu,
+                                     mas não deixei de olhar para frente. Por isto estou aqui hoje,
+                                      comemorando mais uma das minha diversas vitórias.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <span class="detail-label">Data</span>
+                            <div class="detail-value">30 de Agosto, 2025</div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <span class="detail-label">Localização</span>
+                            <div class="detail-value">Espaço Somas<br>R. Ciro Pereira da Silva, 127 - Palomos</div>
                         </div>
                     </div>
                     
-                    <div class="info-section">
-                        <div class="info-label">DATA</div>
-                        <div class="info-value">30 de Agosto, 2025</div>
-                    </div>
-                    
-                    <div class="info-section">
-                        <div class="info-label">HORÁRIO</div>
-                        <div class="info-value">A partir das 19:30 horas</div>
-                    </div>
-                    
-                    <div class="info-section">
-                        <div class="info-label">LOCALIZAÇÃO</div>
-                        <div class="info-value">
-                            Espaço Somas<br>
-                            R. Ciro Pereira da Silva, 127 - Palomos<br>
-                            Poços de Caldas - MG
-                        </div>
-                    </div>
-                    
+                    <!-- Container do Mapa -->
                     <div class="map-container">
                         <div class="map-placeholder">
                             <i class="fas fa-map-marker-alt"></i>
@@ -77,41 +89,35 @@
                         </div>
                     </div>
                     
-                    <div class="button-group">
+                    <!-- Botão do Mapa -->
+                    <div class="location-actions">
                        <a href="https://www.google.com/maps/search/?api=1&query=Espaço+Somas+R.+Ciró+Pereira+da+Silva,+127+-+Palomos" 
-                          class="action-button map-button"
+                          class="btn btn-maps btn-icon-text"
                           target="_blank">
                            <i class="fas fa-map-marked-alt"></i>
                            <span>Ver no Google Maps</span>
                        </a>
                     </div>
-                </div>
-                
-                <div class="confirmation-section fade-in">
-                    <div class="info-label">Confirme Sua Presença</div>
-                    <div class="info-value" style="text-align: center; margin: 20px 0;">
-                        Estamos ansiosos para celebrar juntos este momento especial!
-                    </div>
-                    
-                    <div class="button-group">
+
+                    <!-- Seção de Confirmação -->
+                    <div class="confirmation-section">
+                        <h3 class="confirmation-title">Confirme Sua Presença</h3>
+                        <p>Estamos ansiosos para celebrar juntos este momento especial!</p>
+                        <p>Confirme a sua Presença até o dia 22/08/25</p>
                         <a href="https://wa.me/553599781660?text=Olá%20Pietra,%20confirmo%20minha%20presença%20no%20seu%20aniversário%20de%2015%20anos!" 
                            target="_blank" 
-                           class="action-button whatsapp-button">
+                           class="btn btn-whatsapp btn-icon-text">
                             <i class="fab fa-whatsapp"></i>
                             <span>Confirmar via WhatsApp</span>
                         </a>
-                    </div>
-                    
-                    <div class="qrcode-container">
-                        <div class="info-label" style="margin-bottom: 15px;">Escaneie o QR Code para confirmar</div>
-                        <canvas id="qrcode"></canvas>
-                        <div class="footer-note">Todas as confirmações serão registradas em nosso livro de convidados digital.</div>
+                        <p class="footer-note">Todas as confirmações serão registradas em nosso livro de convidados digital.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 
-    <script src="./assets/js/pagina.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

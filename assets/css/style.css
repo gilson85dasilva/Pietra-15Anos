@@ -190,7 +190,8 @@
             background-image: url('../image/pietra.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
-        
+            background-position: center center;
+             background-attachment: local;
         }
 
         .invite-body::before {
