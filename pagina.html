@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de 15 Anos - Pietra</title>
+    <link rel="stylesheet" href="./assets/css/pagina.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="glitter-overlay"></div>
+    <div class="confetti" id="confetti"></div>
+    
+    <button class="back-btn" id="backBtn">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+    
+    <div class="container">
+        <header>
+        </header>
+        
+        <section class="envelope-section" id="envelopeSection">
+            <div class="envelope-container" id="envelopeContainer">
+                <div class="envelope" id="envelope">
+                    <div class="flap"></div>
+                    <div class="paper"></div>
+                    <div class="heart-button" id="heartButton">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Convite Elegante -->
+        <section class="invitation-section" id="invitationSection">
+            <div class="invitation">
+                <div class="invitation-header fade-in">
+                    <h1>Pietra Donderi Oliveira</h1>
+                    <h2>15 Anos</h2>
+                </div>
+                
+                <div class="subtitle fade-in">Convido você a comemorar comigo esta vitória</div>
+                
+                <div class="invitation-content fade-in">
+                    <div class="message-box">
+                        <div class="info-label">MENSAGEM</div>
+                        <div class="info-value">
+                            Ao deixar minha infância para trás, percebo o quanto se fez belo o meu caminho, como é bom sentir medo e ter com quem se encorajar, tendo, a cada momento, mais razões para agradecer a Deus a vitória de ter chegado aqui.
+                        </div>
+                    </div>
+                    
+                    <div class="info-section">
+                        <div class="info-label">DATA</div>
+                        <div class="info-value">30 de Agosto, 2025</div>
+                    </div>
+                    
+                    <div class="info-section">
+                        <div class="info-label">HORÁRIO</div>
+                        <div class="info-value">A partir das 19:30 horas</div>
+                    </div>
+                    
+                    <div class="info-section">
+                        <div class="info-label">LOCALIZAÇÃO</div>
+                        <div class="info-value">
+                            Espaço Somas<br>
+                            R. Ciro Pereira da Silva, 127 - Palomos<br>
+                            Poços de Caldas - MG
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Visualize a localização do evento</p>
+                        </div>
+                    </div>
+                    
+                    <div class="button-group">
+                       <a href="https://www.google.com/maps/search/?api=1&query=Espaço+Somas+R.+Ciró+Pereira+da+Silva,+127+-+Palomos" 
+                          class="action-button map-button"
+                          target="_blank">
+                           <i class="fas fa-map-marked-alt"></i>
+                           <span>Ver no Google Maps</span>
+                       </a>
+                    </div>
+                </div>
+                
+                <div class="confirmation-section fade-in">
+                    <div class="info-label">Confirme Sua Presença</div>
+                    <div class="info-value" style="text-align: center; margin: 20px 0;">
+                        Estamos ansiosos para celebrar juntos este momento especial!
+                    </div>
+                    
+                    <div class="button-group">
+                        <a href="https://wa.me/553599781660?text=Olá%20Pietra,%20confirmo%20minha%20presença%20no%20seu%20aniversário%20de%2015%20anos!" 
+                           target="_blank" 
+                           class="action-button whatsapp-button">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Confirmar via WhatsApp</span>
+                        </a>
+                    </div>
+                    
+                    <div class="qrcode-container">
+                        <div class="info-label" style="margin-bottom: 15px;">Escaneie o QR Code para confirmar</div>
+                        <canvas id="qrcode"></canvas>
+                        <div class="footer-note">Todas as confirmações serão registradas em nosso livro de convidados digital.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/js/pagina.js"> </script>
+</body>
+</html>
