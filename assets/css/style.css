@@ -48,7 +48,7 @@
             height: 400px;
             background: var(--envelope-color);
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(207, 27, 132, 0.61);
+            box-shadow: 0 10px 30px rgba(214, 42, 143, 0.61);
             cursor: pointer;
             transition: all 0.5s ease;
             transform-style: preserve-3d;
